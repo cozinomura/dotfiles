@@ -1,7 +1,9 @@
 " 挙動を vi 互換ではなく、Vim のデフォルト設定にする
 set nocompatible
+
 " 一旦ファイルタイプ関連を無効化する
 filetype off
+
 " エンコーディングの設定
 :set encoding=utf-8
 :set fileencodings=iso-2022-jp,euc-jp,sjis,utf-8
