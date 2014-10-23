@@ -1,12 +1,7 @@
 " 挙動を vi 互換ではなく、Vim のデフォルト設定にする
 set nocompatible
-
 " 一旦ファイルタイプ関連を無効化する
 filetype off
-
-" エンコーディングの設定
-:set encoding=utf-8
-:set fileencodings=iso-2022-jp,euc-jp,sjis,utf-8
 
 """"""""""""""""""""""""""""""
 " プラグインのセットアップ
@@ -52,9 +47,6 @@ NeoBundle 'vim-scripts/AnsiEsc.vim'
 NeoBundle 'bronson/vim-trailing-whitespace'
 " less用のsyntaxハイライト
 NeoBundle 'KohPoll/vim-less'
-
-" カラースキーマ
-NeoBundle 'https://github.com/tomasr/molokai.git'
 
 " 余談: neocompleteは合わなかった。ctrl+pで補完するのが便利
 
@@ -130,7 +122,7 @@ set whichwrap=b,s,h,l,<,>,[,]
 " 構文毎に文字色を変化させる
 syntax on
 " カラースキーマの指定
-colorscheme molokai
+colorscheme desert
 " 行番号の色
 highlight LineNr ctermfg=darkyellow
 """"""""""""""""""""""""""""""
