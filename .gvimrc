@@ -12,7 +12,7 @@
 let s:cpo_save = &cpo
 set cpo&vim
 
-set backspace+=indent,eol,start 
+set backspace+=indent,eol,start
 
 "
 " Global default options
@@ -105,4 +105,5 @@ unlet s:cpo_save
 
 set lsp=2
 set guifont=Menlo:h12
-set lines=90 columns=200
+set lines=55 columns=200
+set transparency=3

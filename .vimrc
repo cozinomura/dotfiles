@@ -48,6 +48,9 @@ NeoBundle 'bronson/vim-trailing-whitespace'
 " less用のsyntaxハイライト
 NeoBundle 'KohPoll/vim-less'
 
+" カラースキーム
+NeoBundle 'tomasr/molokai'
+
 " 余談: neocompleteは合わなかった。ctrl+pで補完するのが便利
 
 call neobundle#end()
@@ -122,9 +125,12 @@ set whichwrap=b,s,h,l,<,>,[,]
 " 構文毎に文字色を変化させる
 syntax on
 " カラースキーマの指定
-colorscheme desert
+colorscheme molokai
 " 行番号の色
 highlight LineNr ctermfg=darkyellow
+" カーソルのハイライト
+set cursorline
+hi clear CursorLine
 """"""""""""""""""""""""""""""
 
 " vimを立ち上げたときに、自動的にvim-indent-guidesをオンにする
