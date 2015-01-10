@@ -107,4 +107,4 @@ set lsp=2
 set guifont=Menlo:h14
 set lsp=3
 set lines=55 columns=200
-set transparency=3
+set transparency=10
