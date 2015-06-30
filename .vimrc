@@ -47,6 +47,8 @@ NeoBundle 'vim-scripts/AnsiEsc.vim'
 NeoBundle 'bronson/vim-trailing-whitespace'
 " less用のsyntaxハイライト
 NeoBundle 'KohPoll/vim-less'
+" カッコやダブルコーテーションを自動で閉じる
+NeoBundle 'Townk/vim-autoclose'
 
 " カラースキーム
 NeoBundle 'tomasr/molokai'
