@@ -108,3 +108,6 @@ set guifont=Menlo:h14
 set lsp=3
 set lines=55 columns=200
 set transparency=10
+" auto-pairsを導入したら日本語IMEの挙動がおかしくなったので対応
+set imdisable
+
